@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+}
+header {
+    display: flex;
+    background: #303030;
+    font-family: Raleway;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    text-align: center;
+}
+#logo {
+    width: 200px;
+    padding: 10px;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+.info {
+    font-family: Verdana;
+    color: #265E70;
+    font-size: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.img1{
+    align-items: center;
+    width: auto;
+    margin-top: 0px;
+}
+.infoModel {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana;
+    text-align: center;
+    padding: 30px;
+    align-content: center;
+    color: #265E70;
+    font-size: 30px;
+}
+#boldMoto{
+    color: #4DBCE9;
+}
+.navModel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.model {
+    background: #4DBCE9BF;
+    border-radius: 15px;
+    color: white;
+    height: 600px;
+    width: 400px;
+}
+#nameModel {
+    font-size: 28px;
+    padding: 10px;
+}
+.imgMoto {
+    align-items: center;
+    height: 30vh;
+    margin-top: 0px;
+}
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: #265E70;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.time {
+    font-size: 16px;
+    padding: 10px;
+}
+.navRight, .navLeft {
+    background: none;
+    border: solid #4DBCE9;
+    transform: translateY(-50%);
+}
+.navLeft {
+    left: 0;
+}
+.navRight {
+    right: 0;
+}
+.button {
+    background: #4DBCE9;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 39px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
